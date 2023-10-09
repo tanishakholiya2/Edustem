@@ -1,0 +1,22 @@
+{"intents": [{"context": "",
+    "patterns": ["Hello", "Hi there", "What's up", "Hey"],
+    "responses": ["Hey! What can I help you with?", "Hello, what can I help you with?", "Hi! What can I help you with?"],
+    "tag": "hello"},
+    {"context": "",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "tag": "noanswer"},
+    {"context": "",
+    "patterns": ["I need help with math", "I don't understand math", "I'm failing math"],
+    "responses": ["Math can be very challenging! Try navigating to our math resources to learn more", "It's helpful to practice with problems, try navigating to Khan Academy"],
+    "tag": "math"},
+    {"context": "",
+    "patterns": ["I need help with science", "I don't understand science", "I'm failing science"],
+    "responses": ["Science can be very challenging! Try navigating to our resources to learn more", "It's helpful to practice with problems, try navigating to Khan Academy"],
+    "tag": "science"},
+    {"context": "",
+    "patterns": ["I need help with computer science", "I don't understand coding", "I'm failing computer science"],
+    "responses": ["Computer science can be very challenging! Try navigating to our resources to learn more", "It's helpful to practice with coding, try navigating to CodeAcademy or Codingbat for more practice"],
+    "tag": "computerscience"}
+]
+}
